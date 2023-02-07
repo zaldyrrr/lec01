@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #myParagraph {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="myButton">Change Color</button>
+    <p id="myParagraph">This is a paragraph</p>
+    <script>
+      var myButton = document.getElementById("myButton");
+      var myParagraph = document.getElementById("myParagraph");
+
+      myButton.onclick = function() {
+        myParagraph.style.color = "red";
+      }
+    </script>
+  </body>
+</html>
